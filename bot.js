@@ -1,8 +1,13 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-client.on('ready', () => {
-    client.user.setGame(`ًWELCOME TO HEART BOT`,'https://www.twitch.tv/MeeRcY')
 
+
+
+client.on('ready', () => {
+    client.user.setGame(` WELCOME TO SERVER HEARTBOT`,'https://www.twitch.tv/MeeRcY')
+
+});
+client.login("NTEwNzAxMTY4NjI0Nzk1NjY4.DsgLog.E9iI1gJCUufbSzJ988BzZdbAT1o")
 
 
 
